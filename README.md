@@ -1,5 +1,8 @@
 # Blog posts
 
+![GitHub Workflow](https://img.shields.io/github/workflow/status/jikuja/blog-posts/publish/master)
+![GitHub License](https://img.shields.io/github/license/jikuja/blog-posts)
+
 ## License
 
 Copyright 2020 Janne Kujanpää
