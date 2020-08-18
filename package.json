@@ -1,0 +1,24 @@
+{
+  "name": "blog-posts",
+  "version": "1.0.0",
+  "description": "dev.to blog posts with devto-cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jikuja/blog-posts.git"
+  },
+  "author": "Janne Kujanpää",
+  "private": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jikuja/blog-posts/issues"
+  },
+  "homepage": "https://github.com/jikuja/blog-posts#readme",
+  "dependencies": {
+    "devto-cli": "github:jikuja/devto-cli",
+    "embedme": "^1.21.0",
+    "prettier": "^2.0.5"
+  }
+}
