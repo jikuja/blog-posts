@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jikuja/blog-posts#readme",
   "dependencies": {
-    "devto-cli": "github:jikuja/devto-cli#master",
+    "@sinedied/devto-cli": "^1.3.0",
     "embedme": "^1.22.1",
     "prettier": "^3.0.0"
   }
