@@ -23,6 +23,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    # yarn install
+    - name: Run install
+      uses: borales/actions-yarn@v4
+      with:
+        cmd: install
+    # run embedme
+    - name: Run embedme
+      uses: borales/actions-yarn@v4
+      with:
+        cmd: run embedme "posts/**/*.md" --verify
+    # publish posts
     - name: Publish articles on dev.to
       uses: sinedied/publish-devto@v2
       id: publish_devto
