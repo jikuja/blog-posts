@@ -28,6 +28,14 @@ jobs:
       uses: borales/actions-yarn@v4
       with:
         cmd: install
+    # debug
+    - name: Run build script
+      run: tree node_modules/.bin
+      shell: bash
+    # debug
+    - name: Run build script
+      run: tree node_modules/embedme
+      shell: bash
     # run embedme
     - name: Run embedme
       uses: borales/actions-yarn@v4
