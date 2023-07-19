@@ -1,10 +1,11 @@
 ---
 title: Bicep module resourcepassing
 description: How to pass Azure resources to/from Bicep modules
-tags: Azure,Bicep
+tags: 'Azure,Bicep'
 cover_image: ''
 canonical_url: null
 published: false
+id: 1541937
 ---
 
 ToC:
