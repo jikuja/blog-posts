@@ -16,9 +16,11 @@
     "url": "https://github.com/jikuja/blog-posts/issues"
   },
   "homepage": "https://github.com/jikuja/blog-posts#readme",
-  "dependencies": {
+  "devDependencies": {
+    "embedme": "github:jikuja/embedme#bicep",
     "@sinedied/devto-cli": "^1.3.0",
-    "embedme": "^1.22.1",
     "prettier": "^3.0.0"
+  },
+  "dependencies": {
   }
 }
