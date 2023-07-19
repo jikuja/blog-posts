@@ -23,17 +23,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    # yarn install
-    - name: Run install
-      uses: borales/actions-yarn@v4
+    - name: Set LTS Node.js
+      uses: actions/setup-node@v3
       with:
-        cmd: install
+        node-version: lts/*
+    # npm install
+    - name: Run install
+      run: npm ci
     # debug
-    - name: Run build script
+    - name: Run debug 1
       run: tree node_modules/.bin
       shell: bash
     # debug
-    - name: Run build script
+    - name: Run debug 2
       run: tree node_modules/embedme
       shell: bash
     # run embedme
