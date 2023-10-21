@@ -8,7 +8,17 @@ published: false
 id: 1560674
 ---
 
-[TOC]
+{%- # TOC start (generated with https://github.com/derlin/bitdowntoc) -%}
+
+- [Azure resource properties, keys and secrets](#azure-resource-properties-keys-and-secrets)
+- [Passing resource properties and sensitivr data in single-module template](#passing-resource-properties-and-sensitivr-data-in-singlemodule-template)
+- [Bicep module system](#bicep-module-system)
+- [The Bad: pass sensitive data to/from modules](#the-bad-pass-sensitive-data-tofrom-modules)
+- [The Ugly: pass resource names or id and use existing keyword](#the-ugly-pass-resource-names-or-id-and-use-existing-keyword)
+- [The Good: resource-typed module input and output](#the-good-resourcetyped-module-input-and-output)
+- [Links](#links)
+
+{%- # TOC end -%}
  
 # Azure resource properties, keys and secrets
 
