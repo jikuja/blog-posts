@@ -1,8 +1,9 @@
 ---
-title: 'Azure storage with lease and retention policy'
+title: Azure storage with lease and retention policy
 published: false
-description: 'Real-life scenarion what happens when lease and renention policy are enabled on storage account'
+description: Real-life scenarion what happens when lease and renention policy are enabled on storage account
 tags: 'azure, storage'
+id: 1642100
 ---
 
 Recently I added lease to some files that were in the container having retention
