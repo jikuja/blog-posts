@@ -1,7 +1,9 @@
 {
     "default": true,
     "MD013": {
-        "line_length": 120,
-        "code_block_line_length": 180
+        // dev.to sucks with new lines. It does not follow original markdown or GFM spec
+        "line_length": 10000, 
+        // code blocks can render 65 characters without scroll bar
+        "code_block_line_length": 65
     }
 }
