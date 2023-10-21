@@ -1,2 +1,6 @@
 {
+    "files.associations": {
+        "*.json": "jsonc"
+      },
+      "markdown.validate.enabled": true
 }
