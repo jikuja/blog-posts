@@ -11,7 +11,9 @@
     "format:check": "npx prettier --check posts/\"**/*.{js,json,scss,md,ts,html,component.html}\"",
     "prettier:base": "npx prettier posts/\"**/*.{js,json,scss,md,ts,html,component.html}\"",
     "prettier:write": "npm run prettier:base --write",
-    "prettier:check": "npm run prettier:base --list-different"
+    "prettier:check": "npm run prettier:base --list-different",
+    "importEnv": "set -a; source .env; set +a",
+    "listArticles": "curl -H \"api-key: $DEVTO_TOKEN\" 'https://dev.to/api/articles/me/all?page=1&per_page=1000' | jq ."
   },
   "repository": {
     "type": "git",
