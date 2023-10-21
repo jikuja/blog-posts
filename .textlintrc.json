@@ -1,0 +1,12 @@
+{
+  "plugins": {},
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "alex": true,
+    "common-misspellings": true,
+    "rousseau": true,
+    "spellchecker": true
+  }
+}
